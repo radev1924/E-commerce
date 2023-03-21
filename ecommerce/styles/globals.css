@@ -130,14 +130,29 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
   border-radius: 15px;
   position: relative;
-  height: 500px;
+  height: 550px;
   line-height: 0.9; 
   width: 100%;
+  background: linear-gradient(45deg, #baee52, #3c86e7, #d523d2, #d59423);
+	background-size: 600% 600%;
+	animation: gradient 20s ease infinite;
 
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .hero-banner-container .beats-solo{
   font-size: 20px;
 }
@@ -220,6 +235,9 @@ text-align: end;
   color: white;
   width: 100%;
   margin-top: 120px;
+  background: linear-gradient(45deg, #baee52, #3c86e7, #d523d2, #d59423);
+	background-size: 600% 600%;
+	animation: gradient 20s ease infinite;
 }
 .banner-desc{
   display: flex ;
@@ -278,8 +296,8 @@ text-align: end;
 }
 .cart-container{
   height: 100vh;
-  width: 600px;
-  background-color: white;
+  width: 490px;
+  background-color: rgb(255, 255, 255);
   float: right;
   padding: 40px 10px;
   position: relative;
