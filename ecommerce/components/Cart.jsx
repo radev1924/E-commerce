@@ -82,8 +82,7 @@ const Cart = () => {
                   <button
                     type="button"
                     className="remove-item"
-                    onClick={() => onRemove(item)}
-                  >
+                    onClick={() => onRemove(item)}>
                     <TiDeleteOutline />
                   </button>
                 </div>
@@ -94,12 +93,12 @@ const Cart = () => {
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
             <div className="total">
-              <h3>Subtotal:</h3>
-              <h3>${totalPrice}</h3>
+              <h2>Total:</h2>
+              <h2>${totalPrice}</h2>
             </div>
             <div className="btn-container">
               <button type="button" className="btn" onClick={handleCheckout}>
-                Pay with Stripe
+                CHECKOUT
               </button>
             </div>
           </div>
