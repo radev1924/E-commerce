@@ -5,11 +5,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <p>
-        © 2020 - All rights reserved.
-      </p>
-      <p>
-        <AiFillInstagram/>
-        <AiOutlineTwitter/>
+        © 2023 - All rights reserved.
       </p>
     </div>
   )

@@ -29,7 +29,7 @@ width: 100%;
 .navbar-container{
   display: flex;
   justify-content: space-between;
-  margin: 6px 18px;
+  margin: 14px 18px;
   position: relative;
 }
 .marquee-text{
@@ -132,7 +132,7 @@ width: 100%;
   padding: 100px 40px;
   border-radius: 15px;
   position: relative;
-  height: 550px;
+  height: 520px;
   line-height: 0.9; 
   width: 100%;
   background: linear-gradient(45deg, #baee52, #3c86e7, #d523d2, #d59423);
@@ -154,16 +154,17 @@ width: 100%;
 }
 
 .hero-banner-container .beats-solo{
-  font-size: 20px;
+  font-size: 30px;
 }
 .hero-banner-container button{
-   border-radius: 15px;
+  border-radius: 15px;
   padding: 10px 16px;
-  background-color: #f02d34;
+  background-color: #2d92f0;
   color: white;
   border: none;
+  text-transform: capitalize;
   margin-top: 40px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
   cursor: pointer;
   z-index:10000 !important;
@@ -175,8 +176,8 @@ width: 100%;
 }
 .hero-banner-container h1{
   color: white;
-  font-size: 10em;
-  margin-left: -20px;
+  font-size: 8em;
+  margin-left: -5px;
   text-transform: uppercase;
 }
 .hero-banner-image{
@@ -185,8 +186,8 @@ width: 100%;
   right:20%;
   width: 450px;
   height: 450px;
+  opacity: 0.9;
 }
-
 
 .desc{
 position: absolute;
@@ -196,13 +197,17 @@ width: 300px;
 line-height: 1.3;
 display: flex;
 flex-direction: column;
- color: #324d67;
+color: #324d67;
+color: #fafafa;
+font-weight: 400;
+font-size: 20px;
 
 }
 .desc p{
-  color: #5f5f5f;
-  font-weight: 100;
-text-align: end;
+  color: #fafafa;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: end;
 }
 .desc h5{
   margin-bottom: 12px;
@@ -226,9 +231,8 @@ text-align: end;
   font-weight: 200;
 }
 .footer-banner-container{
-  padding: 100px 40px;
-  background-color: #f02d34;
-  border-radius: 15px;
+  padding: 100px 20px;
+  border-radius: 30px;
   position: relative;
   height: 400px;
   line-height: 1; 
@@ -246,13 +250,14 @@ text-align: end;
 .banner-desc button{
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: white;
-  color: red;
+  background-color: #2d92f0;
+  color: white;
   border: none;
   margin-top: 40px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   cursor: pointer;
+  text-transform: capitalize;
 }
 .banner-desc .left h3{
   font-weight: 900;
@@ -264,10 +269,11 @@ text-align: end;
 }
 .footer-banner-image{
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
-  left: 25%;
+  top: 15%;
+  left: 45%;
+  opacity: 0.9;
+  width: 340px;
+  height: 340px;
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -283,14 +289,13 @@ text-align: end;
   font-size: 14px;
   font-weight: 300;
 }
-.cart-wrapper{
+.cart-shadow{
   width: 100vw;
   background: rgba(0, 0, 0, 0.7);
   position: fixed;
   right: 0;
   top: 0;
   z-index: 100;
-  /* will-change: transform; */
   transition: all 1s ease-in-out;
 
 }
@@ -305,11 +310,11 @@ text-align: end;
 }
 
 .footer-container{
-  color: #324d67;
+  color: #293f54;
   text-align: center;
-  margin-top: 20px;
-  padding: 30px 10px;
-  font-weight: 700;
+  margin-top: 15px;
+  padding: 20px 10px;
+  font-weight: 800;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -325,29 +330,29 @@ text-align: end;
  .cart-heading{
   display: flex;
   align-items: center;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   cursor: pointer;
   gap: 2px;
-  margin-left: 10px;
+  margin-left: 9px;
   border: none;
   background-color: transparent;
 }
 
 .cart-heading .heading{
-  margin-left: 10px;
+  margin-left: 13px;
 }
 .cart-num-items{
-  margin-left: 10px;
-  color: #f02d34;
+  margin-left: 12px;
+  color: #2d92f0;
 }
 .empty-cart{
-  margin:40px;
+  margin:50px;
   text-align:center;
 }
 .empty-cart h3{
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
 }
 .cancel{
   cursor: pointer;
@@ -355,24 +360,24 @@ text-align: end;
 .product-container{
   margin-top: 15px;
   overflow: auto;
-max-height: 70vh;
-padding: 20px 10px;
+  max-height: 70vh;
+padding: 20px 0px;
 }
 .product{
   display: flex;
- gap: 30px;
+  gap: 30px;
   padding: 20px;
 }
 .product .cart-product-image{
-  width:180px ;
+  width: 170px;
   height: 150px;
-    border-radius: 15px;
- background-color: #ebebeb;
+  border-radius: 15px;
+  background-color  : #ebebeb;
 }
 .item-desc .flex{
   display: flex;
   justify-content: space-between;
-  width: 350px;
+  width: 270px;
    color: #324d67;
 
 }
@@ -380,7 +385,7 @@ padding: 20px 10px;
   margin-top: 60px;
 }
 .flex h5{
-  font-size: 24px;
+  font-size: 25px;
 }
 .flex h4{
   font-size: 20px;
@@ -394,8 +399,8 @@ padding: 20px 10px;
 
 }
 .remove-item{
-  font-size: 24px;
-  color: #f02d34;
+  font-size: 30px;
+  color: #2d92f0;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -403,14 +408,14 @@ padding: 20px 10px;
 .cart-bottom{
   position: absolute;
   bottom: 12px;
-  right: 5px;
-width: 100%;
-padding: 30px 65px;
+  right: 2px;
+  width: 100%;
+  padding: 30px 65px;
 
 }
 
 .btn-container{
-  width: 300px;
+  width: 270px;
   margin: auto;
 }
 .btn{
@@ -420,24 +425,23 @@ padding: 30px 65px;
   border-radius: 15px;
   border: none;
   font-size: 20px;
-  margin-top: 10px;
-  margin-top: 40px;
-  text-transform: uppercase;
-  background-color: #f02d34;
+  margin-top: 20px;
+  text-transform: uppercase, bold !important;
+  background-color: #2d92f0;
   color: #fff;
   cursor: pointer;
   transform: scale(1, 1);
-  transition: transform 0.5s ease;
+  transition: transform 1s ease;
 }
 .btn:hover{
-  transform: scale(1.1,1.1);
+  transform: scale(1.2,1.2);
 }
 .product-detail-container{
   display: flex;
- gap: 40px;
- margin: 40px;
- margin-top: 60px;
- color: #324d67;
+  gap: 40px;
+  margin: 40px;
+  margin-top: 60px;
+  color: #324d67;
 
 }
 
@@ -647,8 +651,9 @@ margin-top: 160px;
     right: -6%;
   }
   .footer-banner-container{
-    height: 560px;
-    margin-top: 80px;
+    margin-top: 70px;
+    height: 550px;
+    
   }
   .footer-banner-image{
     width: 77%;
@@ -660,9 +665,11 @@ margin-top: 160px;
     font-weight: 900;
     font-size: 50px;
     margin-left: 5px;
+    text-transform: capitalize;
   }
   .banner-desc .left p{
     margin:18px;
+    text-transform: capitalize; 
   }
   .banner-desc .right h3{
     font-size: 45px;

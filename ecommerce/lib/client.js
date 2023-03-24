@@ -6,7 +6,7 @@
         dataset:'production',
         apiVersion:'2023-03-09',
         useCdn: true,
-        token: process.env.NEXT_PUBLIC_SANITY_TOKEN,
+        token: process.env.Sanity_key,
     }) ;
 
     const builder = imageUrlBuilder(client);
