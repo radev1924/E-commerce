@@ -1,7 +1,6 @@
 import React from 'react';  
 import { client } from '../lib/client';
 import { Product, FooterBanner, HeroBanner } from '../components';
-import SearchBar from '@/components/SearchBar';
 
 const Home = ({ products, bannerData }) => (
   <div>
